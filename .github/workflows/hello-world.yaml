@@ -8,4 +8,8 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello world from GitHub actions"
+      - name: "Print Hello World message"
+        run: echo "Hello world from GitHub actions"
+
+      - name: "Farewell"
+        run: echo "See you later"
