@@ -8,4 +8,4 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: exho "Hello world from GitHub actions"
+      - run: echo "Hello world from GitHub actions"
